@@ -37,7 +37,7 @@ namespace TaşKağıtMakas
             btnBKagit.BackColor = Color.Yellow;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnYenile_Click(object sender, EventArgs e)
         {
             btnBKagit.Enabled = true;
             btnBTas.Enabled = true;

@@ -41,7 +41,7 @@ namespace TaşKağıtMakas
             this.lblBSkor = new System.Windows.Forms.Label();
             this.lblRTur = new System.Windows.Forms.Label();
             this.lblBTur = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnYenile = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRTas
@@ -168,17 +168,17 @@ namespace TaşKağıtMakas
             this.lblBTur.TabIndex = 10;
             this.lblBTur.Text = "0";
             // 
-            // button1
+            // btnYenile
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::TaşKağıtMakas.Properties.Resources.yenile;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(39, 34);
-            this.button1.TabIndex = 11;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnYenile.BackColor = System.Drawing.Color.Transparent;
+            this.btnYenile.BackgroundImage = global::TaşKağıtMakas.Properties.Resources.yenile;
+            this.btnYenile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnYenile.Location = new System.Drawing.Point(12, 12);
+            this.btnYenile.Name = "btnYenile";
+            this.btnYenile.Size = new System.Drawing.Size(39, 34);
+            this.btnYenile.TabIndex = 11;
+            this.btnYenile.UseVisualStyleBackColor = false;
+            this.btnYenile.Click += new System.EventHandler(this.btnYenile_Click);
             // 
             // Form1
             // 
@@ -187,7 +187,7 @@ namespace TaşKağıtMakas
             this.BackgroundImage = global::TaşKağıtMakas.Properties.Resources.Fon;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(408, 378);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnYenile);
             this.Controls.Add(this.lblBTur);
             this.Controls.Add(this.lblRTur);
             this.Controls.Add(this.lblBSkor);
@@ -220,7 +220,7 @@ namespace TaşKağıtMakas
         private System.Windows.Forms.Label lblBSkor;
         private System.Windows.Forms.Label lblRTur;
         private System.Windows.Forms.Label lblBTur;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnYenile;
     }
 }
 
